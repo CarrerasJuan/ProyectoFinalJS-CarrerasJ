@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JECShop</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+<!-- NavBar- Seccion de seleccion + carrito y logo -->
+    <div class="wrapper">
+        <header class="header-mobile">
+            <h1 class="logo">CarpiShop</h1>
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </header>
+        <aside>
+            <header>
+                <h1 class="logo">PerfumJEC</h1>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <button id= "todos" class="boton-menu boton-categoria active"><i class="fa-solid fa-hand-point-right"></i>Todos los productos</button>
+                    </li>
+                    <li>
+                        <button id= "hombres" class="boton-menu boton-categoria"><i class="fa-regular fa-hand-point-right"></i>Hombres</button>
+                    </li>
+                    <li>
+                        <button id= "mujeres" class="boton-menu boton-categoria"><i class="fa-regular fa-hand-point-right"></i>Mujeres</button>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito" href="./carrito.html">
+                            <i class="fa-solid fa-cart-shopping"></i>Carrito <span id="numerito" class="numerito">0</span></a>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="texto-footer">© 2024 JEC</p>
+            </footer>
+        </aside>
+        <!-- Seccion de catalogos -->
+        <main>
+            <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+             <div id="contenedor-productos" class="contenedor-productos">
+                <!-- Se agrego con codigo javascript -->
+            </div>
+        </main>
+    </div>
+        <!-- JS SCRIPT -->
+        <script src="./js/main.js"></script>
+        <!-- FAVICON SCRIPT -->
+        <script src="https://kit.fontawesome.com/69cdbd6d41.js" crossorigin="anonymous"></script>
+</body>
+</html>
