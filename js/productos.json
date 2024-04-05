@@ -1,0 +1,242 @@
+[
+    {
+        "id": "perfume-01",
+        "titulo": "One Millon (Paco Rabanne)",
+        "imagen": "./img/hombres/perfume01.jpg",
+        "categoria":{
+            "nombre":"Hombres",
+            "id":"hombres"
+        },
+        "precio": 118250
+    },
+    {
+        "id": "perfume-02",
+        "titulo": "212 VIP (Carolina Herrera)",
+        "imagen": "./img/hombres/perfume02.jpg",
+        "categoria": {
+            "nombre":"Hombres",
+            "id":"hombres"
+        },
+        "precio": 165800
+    },
+    {
+        "id": "perfume-03",
+        "titulo": "Power Seduction (Antonio Banderas)",
+        "imagen": "./img/hombres/perfume04.jpg",
+        "categoria": {
+            "nombre":"Hombres",
+            "id":"hombres"
+        },
+        "precio": 30840
+    },
+    {
+        "id": "perfume-04",
+        "titulo": "Azzaro Wanted",
+        "imagen": "./img/hombres/perfume05.jpg",
+        "categoria": {
+            "nombre":"Hombres",
+            "id":"hombres"
+        },
+        "precio": 175000
+    },
+    {
+        "id": "perfume-05",
+        "titulo": "Azzaro Wanted By Night",
+        "imagen": "./img/hombres/perfume06.jpg",
+        "categoria": {
+            "nombre":"Hombres",
+            "id":"hombres"
+        },
+         "precio": 134000
+    },
+    {
+        "id": "perfume-06",
+        "titulo": "Bad Boy (Carolina Herrera)",
+        "imagen": "./img/hombres/perfume08.jpg",
+        "categoria": {
+           "nombre":"Hombres",
+            "id":"hombres"
+        },
+        "precio": 116400
+    },
+    {
+        "id": "perfume-07",
+        "titulo": "CH (Carolina Herrera)",
+        "imagen": "./img/hombres/perfume09.jpg",
+        "categoria": {
+            "nombre":"Hombres",
+            "id":"hombres"
+        },
+        "precio": 120000
+    },
+    {
+        "id": "perfume-08",
+        "titulo": "Diavolo (Antonio Banderas)",
+        "imagen": "./img/hombres/perfume10.jpg",
+        "categoria": {
+           "nombre":"Hombres",
+            "id":"hombres"
+        },
+        "precio": 29450
+    },
+    {
+        "id": "perfume-09",
+        "titulo": "Dolce & Gabbana Pour Homme",
+        "imagen": "./img/hombres/perfume11.jpg",
+        "categoria": {
+            "nombre":"Hombres",
+            "id":"hombres"
+        },
+        "precio": 86751
+    },
+    {
+        "id": "perfume-10",
+        "titulo": "Invictus (Paco Rabanne)",
+        "imagen": "./img/hombres/perfume13.jpg",
+        "categoria": {
+            "nombre":"Hombres",
+            "id":"hombres"
+        },
+        "precio": 139500
+    },
+    {
+        "id": "perfume-11",
+        "titulo": "Kenzo Homme",
+        "imagen": "./img/hombres/perfume15.jpg",
+        "categoria": {
+            "nombre":"Hombres",
+            "id":"hombres"
+        },
+        "precio": 89100
+    },
+    {
+        "id": "perfume-12",
+        "titulo": "Phantom (Paco Rabanne)",
+        "imagen": "./img/hombres/perfume18.jpg",
+        "categoria": {
+            "nombre":"Hombres",
+            "id":"hombres"
+        },
+        "precio": 140900
+    },
+    {
+        "id": "perfume-13",
+        "titulo": "Tommy Hilfiger",
+        "imagen": "./img/hombres/perfume19.jpg",
+        "categoria": {
+            "nombre":"Hombres",
+            "id":"hombres"
+        },
+        "precio": 119000
+    },
+    {
+        "id": "perfume-14",
+        "titulo": "Impact Tommy Hilfiger",
+        "imagen": "./img/hombres/perfume20.jpg",
+        "categoria": {
+            "nombre":"Hombres",
+            "id":"hombres"
+        },
+        "precio": 95000
+    },
+    {
+        "id": "perfume-15",
+        "titulo": "Versace Eros",
+        "imagen": "./img/hombres/perfume24.jpg",
+        "categoria": {
+            "nombre":"Hombres",
+           " id":"hombres"
+        },
+        "precio": 207900
+    },
+    {
+        "id": "perfume-16",
+        "titulo": "Paco Rabanne Pure Xs",
+        "imagen": "./img/hombres/perfume25.jpg",
+        "categoria": {
+            "nombre":"Hombres",
+            "id":"hombres"
+        },
+        "precio": 133600
+    },
+    {
+        "id": "perfume-17",
+        "titulo": "Azzaro Wanted Girl",
+        "imagen": "./img/mujeres/perfume07.jpg",
+        "categoria": {
+            "nombre":"Mujeres",
+            "id":"mujeres"
+        },
+        "precio": 49890
+    },
+    {
+        "id": "perfume-18",
+        "titulo": "GOOD GIRL (Carolina Herrera)",
+        "imagen": "./img/mujeres/perfume12.jpg",
+        "categoria": {
+            "nombre":"Mujeres",
+            "id":"mujeres"
+        },
+        "precio": 172000
+    },
+    {
+        "id": "perfume-19",
+        "titulo": "Lady Million (Paco Rabanne)",
+        "imagen": "./img/mujeres/perfume16.jpg",
+        "categoria": {
+            "nombre":"Mujeres",
+            "id":"mujeres"
+        },
+        "precio": 104500
+    },
+    {
+        "id": "perfume-20",
+        "titulo": "Perfume Olympea (Paco Rabanne)",
+        "imagen": "./img/mujeres/perfume17.jpg",
+        "categoria": {
+            "nombre":"Mujeres",
+            "id":"mujeres"
+        },
+        "precio": 177450
+    },
+    {
+        "id": "perfume-21",
+        "titulo": "Hilfiger Woman Tommy Hilfiger",
+        "imagen": "./img/mujeres/perfume21.jpg",
+        "categoria": {
+            "nombre":"Mujeres",
+            "id":"mujeres"
+        },
+        "precio": 134500
+    },
+    {
+        "id": "perfume-22",
+        "titulo": "Tommy Girl Tommy Hilfiger",
+        "imagen": "./img/mujeres/perfume22.jpg",
+        "categoria": {
+            "nombre":"Mujeres",
+            "id":"mujeres"
+        },
+        "precio": 83490
+    },
+    {
+        "id": "perfume-23",
+        "titulo": "Versace Crystal Noir",
+        "imagen": "./img/mujeres/perfume23.jpg",
+        "categoria": {
+            "nombre":"Mujeres",
+            "id":"mujeres"
+        },
+        "precio": 218410
+    },
+    {
+        "id": "perfume-24",
+        "titulo": "Paco Rabanne Pure Xs ",
+        "imagen": "./img/mujeres/perfume26.jpg",
+       "categoria": {
+            "nombre":"Mujeres",
+            "id":"mujeres"
+        },
+        "precio": 133600
+    }
+]

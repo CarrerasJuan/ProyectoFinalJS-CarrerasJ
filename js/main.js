@@ -1,248 +1,12 @@
-//Productos
-const productos = [
-    //Perfumes hombres
-    {
-        id: "perfume-01",
-        titulo: "Perfume01",
-        imagen: "./img/hombres/perfume01.jpg",
-        categoria: {
-            nombre:"Hombres",
-            id:"hombres",
-        },
-        precio: 1000
-    },
-    {
-        id: "perfume-02",
-        titulo: "Perfume02",
-        imagen: "./img/hombres/perfume02.jpg",
-        categoria: {
-            nombre:"Hombres",
-            id:"hombres",
-        },
-        precio: 1000
-    },
-    {
-        id: "perfume-03",
-        titulo: "Perfume03",
-        imagen: "./img/hombres/perfume04.jpg",
-        categoria: {
-            nombre:"Hombres",
-            id:"hombres",
-        },
-        precio: 1000
-    },
-    {
-        id: "perfume-04",
-        titulo: "Perfume04",
-        imagen: "./img/hombres/perfume05.jpg",
-        categoria: {
-            nombre:"Hombres",
-            id:"hombres",
-        },
-        precio: 1000
-    },
-    {
-        id: "perfume-05",
-        titulo: "Perfume05",
-        imagen: "./img/hombres/perfume06.jpg",
-        categoria: {
-            nombre:"Hombres",
-            id:"hombres",
-        },
-        precio: 1000
-    },
-    {
-        id: "perfume-06",
-        titulo: "Perfume06",
-        imagen: "./img/hombres/perfume08.jpg",
-        categoria: {
-            nombre:"Hombres",
-            id:"hombres",
-        },
-        precio: 1000
-    },
-    {
-        id: "perfume-07",
-        titulo: "Perfume07",
-        imagen: "./img/hombres/perfume09.jpg",
-        categoria: {
-            nombre:"Hombres",
-            id:"hombres",
-        },
-        precio: 1000
-    },
-    {
-        id: "perfume-08",
-        titulo: "Perfume08",
-        imagen: "./img/hombres/perfume10.jpg",
-        categoria: {
-            nombre:"Hombres",
-            id:"hombres",
-        },
-        precio: 1000
-    },
-    {
-        id: "perfume-09",
-        titulo: "Perfume09",
-        imagen: "./img/hombres/perfume11.jpg",
-        categoria: {
-            nombre:"Hombres",
-            id:"hombres",
-        },
-        precio: 1000
-    },
-    {
-        id: "perfume-10",
-        titulo: "Perfume10",
-        imagen: "./img/hombres/perfume13.jpg",
-        categoria: {
-            nombre:"Hombres",
-            id:"hombres",
-        },
-        precio: 1000
-    },
-    {
-        id: "perfume-11",
-        titulo: "Perfume11",
-        imagen: "./img/hombres/perfume15.jpg",
-        categoria: {
-            nombre:"Hombres",
-            id:"hombres",
-        },
-        precio: 1000
-    },
-    {
-        id: "perfume-12",
-        titulo: "Perfume12",
-        imagen: "./img/hombres/perfume18.jpg",
-        categoria: {
-            nombre:"Hombres",
-            id:"hombres",
-        },
-        precio: 1000
-    },
-    {
-        id: "perfume-13",
-        titulo: "Perfume13",
-        imagen: "./img/hombres/perfume19.jpg",
-        categoria: {
-            nombre:"Hombres",
-            id:"hombres",
-        },
-        precio: 1000
-    },
-    {
-        id: "perfume-14",
-        titulo: "Perfume14",
-        imagen: "./img/hombres/perfume20.jpg",
-        categoria: {
-            nombre:"Hombres",
-            id:"hombres",
-        },
-        precio: 1000
-    },
-    {
-        id: "perfume-15",
-        titulo: "Perfume15",
-        imagen: "./img/hombres/perfume24.jpg",
-        categoria: {
-            nombre:"Hombres",
-            id:"hombres",
-        },
-        precio: 1000
-    },
-    {
-        id: "perfume-16",
-        titulo: "Perfume16",
-        imagen: "./img/hombres/perfume25.jpg",
-        categoria: {
-            nombre:"Hombres",
-            id:"hombres",
-        },
-        precio: 1000
-    },
-//Perfumes Mujeres
-    {
-        id: "perfume-17",
-        titulo: "Perfume17",
-        imagen: "./img/mujeres/perfume07.jpg",
-        categoria: {
-            nombre:"Mujeres",
-            id:"mujeres",
-        },
-        precio: 1000
-    },
-    {
-        id: "perfume-18",
-        titulo: "Perfume18",
-        imagen: "./img/mujeres/perfume12.jpg",
-        categoria: {
-            nombre:"Mujeres",
-            id:"mujeres",
-        },
-        precio: 1000
-    },
-    {
-        id: "perfume-19",
-        titulo: "Perfume19",
-        imagen: "./img/mujeres/perfume16.jpg",
-        categoria: {
-            nombre:"Mujeres",
-            id:"mujeres",
-        },
-        precio: 1000
-    },
-    {
-        id: "perfume-20",
-        titulo: "Perfume20",
-        imagen: "./img/mujeres/perfume17.jpg",
-        categoria: {
-            nombre:"Mujeres",
-            id:"mujeres",
-        },
-        precio: 1000
-    },
-    {
-        id: "perfume-21",
-        titulo: "Perfume21",
-        imagen: "./img/mujeres/perfume21.jpg",
-        categoria: {
-            nombre:"Mujeres",
-            id:"mujeres",
-        },
-        precio: 1000
-    },
-    {
-        id: "perfume-22",
-        titulo: "Perfume22",
-        imagen: "./img/mujeres/perfume22.jpg",
-        categoria: {
-            nombre:"Mujeres",
-            id:"mujeres",
-        },
-        precio: 1000
-    },
-    {
-        id: "perfume-23",
-        titulo: "Perfume23",
-        imagen: "./img/mujeres/perfume23.jpg",
-        categoria: {
-            nombre:"Mujeres",
-            id:"mujeres",
-        },
-        precio: 1000
-    },
-    {
-        id: "perfume-24",
-        titulo: "Perfume24",
-        imagen: "./img/mujeres/perfume26.jpg",
-        categoria: {
-            nombre:"Mujeres",
-            id:"mujeres",
-        },
-        precio: 1000
-    },
-];
+//🔽 ejecutamos un fetch con el json que contenga el arrays de productos, que cargue los productos directamente desde ahí.
+ let productos = [];
+
+    fetch("./js/productos.json")
+       .then(response => response.json())
+       .then(data => {
+           productos = data;
+           cargarProductos(productos);
+     })
 
 //🔽Aqui metemere cada uno de los productos.
 const contenedorProductos = document.querySelector("#contenedor-productos");
@@ -273,7 +37,7 @@ function cargarProductos(productosElegidos) {
              <img class="producto-imagen" src="${producto.imagen}" alt="${producto.titulo}">
              <div class="producto-detalles">
              <h3 class="producto-titulo">${producto.titulo}</h3>
-             <p class="producto-precio">${producto.precio}</p>
+             <p class="producto-precio">$${producto.precio}</p>
              <button class="producto-agregar" id="${producto.id}">Agregar</button>
              </div>
        `;
@@ -281,8 +45,6 @@ function cargarProductos(productosElegidos) {
     })
     actualizarBotonesAgregar();
 }
-  //🔽LLamamos la funcion para que se cargue en el html.
-  cargarProductos(productos);
 
 
 //🔽llamamos al botonesCategorias para ejecutarle el evento y que se puedan abrir al hacer click.
@@ -315,9 +77,41 @@ function actualizarBotonesAgregar() {
     });
 }
 
-const productosEnCarrito = [];
+//🔽cambiamos la variable PEC, si PEC que traemos del storage contiene algo lo suma a lo que esta en PECLS si no se cumple es un array vacio. 
+//🔽generamos lo mismo con el numerito para que quede freezado con lo que contiene del storage mas lo que se le agregue. 
+    let productosEnCarrito;
+    let productosEnCarritoLS = localStorage.getItem("productos-en-carrito");
+    if(productosEnCarritoLS) {
+        productosEnCarrito = JSON.parse(productosEnCarritoLS);
+        actualizarNumerito();
+    }else {
+        productosEnCarrito = [];
+    } 
 
-function agregarAlCarrito(e) {
+
+    function agregarAlCarrito(e) {
+        //🔽 Se agrega desde la libreria la tarjetita de confirmacion al agregar al carrito.
+        Toastify({
+            text: "Agregado al Carrito",
+            duration: 3000,
+            close: true,
+            gravity: "top", // `top` or `bottom`
+            position: "right", // `left`, `center` or `right`
+            stopOnFocus: true, // Prevents dismissing of toast on hover
+            style: {
+              background: "linear-gradient(to right, #4686F0, #062557)",
+              borderRadius: "2rem",
+              textTransform: "uppercase",
+              fontSize: ".75rem",
+            },
+            offset: {
+                x: `1.5rem`, // horizontal axis - can be a number or a string indicating unity. eg: '2em'
+                y: `1.5rem` // vertical axis - can be a number or a string indicating unity. eg: '2em'
+              },
+            onClick: function(){} // Callback after click
+          }).showToast();
+
+
     const idBoton = e.currentTarget.id;
     const productoAgregado = productos.find(producto => producto.id === idBoton);
     
@@ -332,12 +126,12 @@ function agregarAlCarrito(e) {
     }
 
     actualizarNumerito();
+
+    localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
 }
 
 
 function actualizarNumerito() {
     let nuevoNumerito = productosEnCarrito.reduce((acc, producto) => acc + producto.cantidad, 0);
     numerito.innerText = nuevoNumerito;
-
-    console.log(nuevoNumerito);
 }

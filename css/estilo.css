@@ -90,6 +90,7 @@ aside {
     box-shadow: 0 1rem 0 var(--clr-white);
 }
 
+
 .boton-menu.active::after {
     content: '';
     position: absolute;
